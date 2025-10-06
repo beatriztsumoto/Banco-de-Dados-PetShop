@@ -1,0 +1,26 @@
+{
+  "name": "petshopbd",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "cls && nodemon server.js",
+    "studio": "npx prisma studio"
+  },
+  "keywords": [
+    "PetShop",
+    "nodemon",
+    "Banco de Dados"
+  ],
+  "author": "Beatriz Tsumoto",
+  "license": "MIT",
+  "description": "Conexão de Bando de Dados com Back-End",
+  "dependencies": {
+    "@prisma/client": "^6.16.3",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10",
+    "prisma": "^6.16.3"
+  }
+}
